@@ -12,7 +12,7 @@ class SpringJenkinsDevopsApplicationTests {
 	static Logger logger = LoggerFactory.getLogger(SpringJenkinsDevopsApplicationTests.class);
 
 	@Test
-	contextLoads() {
+	void contextLoads() {
 
 		logger.info("Test case executing...");
 		logger.info("Test case executing log for third commit...");
