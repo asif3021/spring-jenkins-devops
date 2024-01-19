@@ -13,6 +13,7 @@ public class SpringJenkinsDevopsApplication {
 
 	@PostConstruct
 	public void init() {
+		logger.info("Hello world...");
 		logger.info("Application started...");
 	}
 
