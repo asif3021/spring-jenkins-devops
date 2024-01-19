@@ -18,6 +18,7 @@ public class SpringJenkinsDevopsApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application executed...");
+		logger.info("Application executed log for second commit...");
 		SpringApplication.run(SpringJenkinsDevopsApplication.class, args);
 	}
 
