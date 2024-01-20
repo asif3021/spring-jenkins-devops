@@ -10,6 +10,7 @@ import java.net.http.HttpResponse;
 @RequestMapping(value = "/api")
 public class HelloController {
 
+    @RequestMapping(value = "/message")
     public ResponseEntity<String> sayHello(){
         return ResponseEntity.ok("Hello world, CI/CD pipeline with Jenkins and docker!!!");
     }
